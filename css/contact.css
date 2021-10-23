@@ -1,0 +1,301 @@
+
+.container-contact{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 682px;
+    margin: 0 auto;
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 682px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 682px;
+    width: 100%;
+}
+.container-contact2{
+    margin-top: 220px;
+    width: 100%;
+}
+
+.containercontact2{
+    width: 1170px;
+    height: 909px;
+    margin: 0 auto;
+}
+
+.contact-container-chung{
+    width: 1170px;
+    height: 320px;
+}
+
+.khung-contact-container1{
+    width: 1170px;
+    height: 262px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.khungcontainer1{
+    width: 670px;
+    height: 262px;
+}
+
+.khung-container1{
+    width: 570px;
+    height: 109px;
+}
+
+.khung-container1 p{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.containercheckout1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul.breadcrumb-contact {
+    
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+ul.breadcrumb-contact li {
+  display: inline;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+ul.breadcrumb-contact li + li:before {
+  padding: 8px;
+  color: #898989;
+  content: "•";
+}
+
+ul.breadcrumb-contact li a {
+  color: #898989;
+  text-decoration: none;
+}
+ul.breadcrumb-contact li a:hover {
+  color: #898989;
+  text-decoration: underline;
+}
+
+ul.breadcrumb-contact li:last-child {
+  color: #f6663f;
+}
+
+
+.khung-container2{
+    margin-top: 65px;
+    width: 670px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.khungcontainer2-1{
+    width: 270px;
+    height: 88px;
+}
+
+.khungcontainer2-1 h4{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.khungcontainer2-1 p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #898989;
+}
+
+.khungcontainer2-1 p:nth-child(2){
+    margin-top: 16px;
+}
+
+.khungcontainer2-2 h4{
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.khungcontainer2-2 p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #898989;
+}
+
+.khungcontainer2-2 p:nth-child(2){
+    margin-top: 16px;
+}
+
+
+.khungcontainer2-2{
+    width: 270px;
+    height: 88px;
+}
+
+
+.khungcontainer2{
+    width: 300px;
+    height: 262px;
+}
+
+.khungcontainer21{
+    margin-top: 30px;
+    width: 300px;
+    height: 91px;
+}
+
+.khungcontainer21 h4{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pobox{
+    margin-top: 18px;
+}
+
+
+.pobox p{
+    font-size: 14px;
+    font-weight: bold;
+    color: #898989;
+}
+
+.pobox p:nth-child(2){
+    margin-top: 10px;
+}
+
+.pobox p:nth-child(3){
+    margin-top: 10px;
+}
+
+
+.contact-container-chung2{
+    margin-top: 61px;
+    width: 1170px;
+}
+
+.khung-container3{
+    width: 470px;
+    height: 107px;
+}
+
+.khung-container3 h3{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.khung-container3 p{
+    margin-top: 27px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #898989;
+}
+
+.contact-input{
+    width: 1170px;
+    color: #898989;
+}
+
+.input-contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #898989;
+}
+
+input{
+    margin-top: 57px;
+    width: 370px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    outline: none;
+    font-weight: bold;
+    
+}
+
+.message-contact{
+    width: 100%;
+    height: 160px;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    resize: none;
+    outline: none;
+    padding: 0;
+    margin-top: 45px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-contact input:focus{
+    border-color: black;
+}
+
+.message-contact:focus{
+    border-color: black;
+
+}
+
+input:focus::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+
+textarea:focus::-webkit-input-placeholder {
+    color: black;
+    font-weight: bold;
+}
+
+.contact-container-chung3{
+    margin-top: 83px;
+    width: 1170px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-button{
+    margin: 0 auto;
+}
+
+.button-contact{
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f6663f;
+}
+
+.button-contact a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-contact{
+    margin-top: 195px;
+  }

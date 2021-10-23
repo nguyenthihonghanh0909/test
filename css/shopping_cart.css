@@ -1,0 +1,439 @@
+.container-shopping-card {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.containershopingcard {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.containercheckout1 {
+  padding-top: 82px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.containercheckout1 h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+ul.breadcrumb-cart {
+  padding: 10px 75px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  align-items: center;
+}
+
+ul.breadcrumb-cart li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb-cart li + li:before {
+  padding: 8px;
+  color: #898989;
+  content: "•";
+}
+
+ul.breadcrumb-cart li a {
+  color: #898989;
+  text-decoration: none;
+}
+ul.breadcrumb-cart li a:hover {
+  color: #898989;
+  text-decoration: underline;
+}
+
+ul.breadcrumb-cart li:last-child {
+  color: #f6663f;
+}
+
+.product-name {
+  margin-top: 65px;
+  width: 100%;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.productname {
+  width: 1170px;
+  height: 40px;
+}
+
+.product-name-shopping {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.product-name-shopping p:nth-child(2) {
+  margin-left: 484px;
+}
+
+.product-name-shopping p:nth-child(3) {
+  margin-left: 119px;
+}
+
+.product-name-shopping p:nth-child(4) {
+  margin-left: 128px;
+}
+
+.jean-woman {
+  width: 100%;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.jeanwoman {
+  width: 1170px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-chung {
+  width: 1170px;
+  height: 159px;
+  display: flex;
+}
+
+.jean-woman-summer {
+  margin-left: 100px;
+  width: 200px;
+  height: 129px;
+}
+
+.jean-woman-summer p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 16px;
+}
+
+.list-color-size {
+  list-style: disc;
+  margin-left: 45px;
+  margin-top: 26px;
+  font-weight: bold;
+}
+
+.list-color-size li {
+  font-size: 14px;
+}
+
+.list-color-size li:nth-child(2) {
+  margin-top: 20px;
+}
+
+.list-color-size li span {
+  color: #898989;
+}
+
+.jean-woman-summer-unitprice {
+  margin-left: 300px;
+  width: 70px;
+  height: 129px;
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-summer-unitprice p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.jean-woman-summer-quantity {
+  margin-left: 130px;
+  width: 100px;
+  height: 129px;
+
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-summer-quantity .quantity {
+  width: 100px;
+  border: 1px solid #d7d7d7;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.jean-woman-summer-quantity .quantity span {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quantity input {
+  outline: none;
+}
+
+div.quantity .qty {
+  font-family: Montserrat, sans-serif;
+  background: 0 0;
+  border: 0;
+  text-align: center;
+  padding: 0 8px;
+  height: 40px;
+  line-height: 40px;
+  width: 60px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 5px;
+}
+
+.jean-woman-summer-total {
+  margin-left: 100px;
+  width: 70px;
+  height: 129px;
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-summer-total p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f6663f;
+}
+
+.jean-woman-summer-button {
+  margin-left: 30px;
+  width: 70px;
+  height: 129px;
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-summer-button button {
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.jean-woman-summer-button button a {
+  color: gray;
+  font-size: 14px;
+  margin: auto;
+}
+
+.button-summer {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  margin-left: 20px;
+}
+
+.button-summer a {
+  text-decoration: none;
+  color: black;
+}
+
+.button-shopping-cartchung {
+  margin-top: 60px;
+  width: 100%;
+}
+
+.three-button-shopping {
+  width: 1170px;
+}
+
+.three-button-shopping {
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+
+.button-one {
+  width: 260px;
+  height: 47px;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.button-two {
+  margin-left: 30px;
+  width: 260px;
+  height: 47px;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.button-three {
+  margin-left: 351px;
+  width: 260px;
+  height: 47px;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.button-one:hover,
+.button-two:hover,
+.button-three:hover{
+  background-color: black;
+  color: white;
+}
+
+.counpon-discount {
+  margin-top: 53px;
+  width: 100%;
+}
+
+.counpon-discount-chung {
+  width: 1170px;
+  height: 337px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.counpon-discount1 {
+  width: 600px;
+  height: 170px;
+}
+
+.counpon-discount1 h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.counpon-discount1 p {
+  margin-top: 22px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #898989;
+}
+
+.button-counpon-discount1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 46px;
+}
+
+input {
+  width: 370px;
+  padding: 15px 20px;
+  border: 1px solid #dad8d3;
+  border-radius: 30px;
+  font-size: 14px;
+  background-color: #f6f7fb;
+}
+
+.button-apply {
+  width: 170px;
+  height: 48px;
+  border: 1px solid #dad8d3;
+  border-radius: 30px;
+  background-color: black;
+}
+
+.button-apply a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.counpon-discount2 {
+  margin-top: 2px;
+  width: 500px;
+  background-color: #f6f7fb;
+}
+
+.counpon-discount2-chung {
+  margin-top: 32px;
+  margin-left: 40px;
+  width: 429px;
+}
+
+.cart-total {
+  width: 100%;
+  height: 38px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.cart-total h4 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sub-total-shopping {
+  width: 429px;
+}
+
+.subtotalshopping {
+  display: flex;
+  margin-top: 30px;
+}
+
+.subtotalshopping p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #898989;
+}
+
+.subtotalshopping span {
+  margin-left: 285px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.grandtotal {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grandtotal p {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.grandtotal span {
+  color: #f6663f;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.checkout-shopping {
+  margin-top: 35px;
+}
+
+.checkout-shopping p {
+  font-size: 15px;
+  color: #898989;
+  font-weight: bold;
+}
+
+.button-proceed {
+  width: 420px;
+  height: 45px;
+  margin-top: 37px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  background-color: #f6663f;
+}
+
+.button-proceed a {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-shopping-card {
+  margin-top: 120px;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="container-header">
+                <div class="khung-header-1">
+                    <div class="khung-header-1-con action-aside_header">
+                        <a class="component-target" href="javascript:;"><i class="fa fa-bars" aria-hidden="true"></i>
+                            <span>Menu</span></a>
+                    </div>
+                    <div class="khung-header-1-con">
+                        <select name="" id="">
+                            <option value="ENG">ENG</option>
+                            <option value="VI">VIE</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="EN">USD</option>
+                            <option value="VNĐ">VNĐ</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="khung-header-2">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+
+                <div class="khung-header-3">
+                    <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <div class="top-dropdown">
+                        <div class="parent">
+                            <a href="javascript:;"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+                            <ul class="links">
+                                <li><a rel="nofollow" class="component-target" href="#"><span
+                                            class="component-target-text">Sign In</span></a></li>
+                                <li><a rel="nofollow" class="component-target" href="#"><span
+                                            class="component-target-text">Sign Up</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <aside id="header_aside" class="header--aside">
+        <div class="header_menu-burger-inner">
+            <a class="btn-aside-toggle" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <nav class="nav-menu-burger accordion-menu">
+                <ul id="menu-main-menu" class="menu">
+                    <li class="menu-item ">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="shopping_cart.html">Shopping Cart</a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="details_product.html">Detail Product</a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="checkout.html">Checkout</a>
+                    </li>
+                    <li class="menu-item ">
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <main>
+        <div class="container-checkout">
+            <div class="containercheckout">
+                <div class="containercheckout1">
+                    <h3>Checkout</h3>
+                    <ul class="breadcrumb-checkout">
+                        <li><a href="#">Home</a></li>
+                        <li>Checkout</li>
+                    </ul>
+                </div>
+                <div class="containercheckout2">
+                    <div class="container-checkout-form">
+                        <div class="form-information">
+                            <p>Returning customer ?<a href="#">Click here to login</a> </p>
+                            <p>Have a Coupon ? <a href="#">Click here to enter your code</a> </p>
+                        </div>
+                        <h4>Billing detail</h4>
+                        <div class="form-group">
+                            <label>COUNTRY</label>
+                            <select class="form-option" name="" id="">
+                                <option value="United Kingdom(UK)">United Kingdom(UK)</option>
+                            </select>
+                        </div>
+                        <div class="form-groupchung">
+                            <div class="form-group1">
+                                <label>FIRST NAME</label>
+                                <div>
+                                    <input class="form-input" type="text">
+                                </div>
+                            </div>
+                            <div class="form-group1">
+                                <label>LAST NAME</label>
+                                <div>
+                                    <input class="form-input" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group-company">
+                            <label>COMPANY NAME</label>
+                            <div>
+                                <input class="form-input" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group-company">
+                            <label>ADDRESS</label>
+                            <div>
+                                <input class="form-input" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group-company">
+                            <label>CITY/TOWN</label>
+                            <div>
+                                <input class="form-input" type="text">
+                            </div>
+                        </div>
+                        <div class="form-groupchung">
+                            <div class="form-group1">
+                                <label>COUNTRY / STATES</label>
+                                <select class="form-option" name="" id="">
+                                    <option value=""></option>
+                                    <option value="United Kingdom(UK)">United Kingdom(UK)</option>
+                                </select>
+                            </div>
+                            <div class="form-group1">
+                                <label>POSTCODE / ZIP </label>
+                                <div>
+                                    <input class="form-input" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-groupchung">
+                            <div class="form-group1">
+                                <label>EMAIL</label>
+                                <select class="form-option" name="" id="">
+                                    <option value=""></option>
+                                    <option value="United Kingdom(UK)">United Kingdom(UK)</option>
+                                </select>
+                            </div>
+                            <div class="form-group1">
+                                <label>PHONE</label>
+                                <div>
+                                    <input class="form-input" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <fieldset class="form-fieldset">
+                                <label><input type="radio"><a href="#">Create an account?</a></label>
+                            </fieldset>
+                        </div>
+                        <div class="form-group-company">
+                            <label>ACCOUNT PASSWORD</label>
+                            <div>
+                                <input class="form-input" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group-company">
+                            <label>ORDER NOTE </label>
+                            <div>
+                                <input class="form-order-note" type="text">
+                            </div>
+                        </div>
+                        <div>
+                            <fieldset class="form-fieldset">
+                                <label><input type="radio"><a href="#">Ship to another address </a></label>
+                            </fieldset>
+                        </div>
+                    </div>
+
+                    <div class="container-checkout-information">
+                        <div class="your-oder">
+                            <h4>Your oder</h4>
+                        </div>
+
+                        <div class="products">
+                            <h3>Products</h3>
+                            <div class="banggia">
+                                <p>Cum sociis natoque </p>
+                                <p>$14.00</p>
+                            </div>
+                            <div class="banggia">
+                                <p>Cum sociis natoque </p>
+                                <p>$14.00</p>
+                            </div>
+                            <div class="banggia">
+                                <p>Cum sociis natoque </p>
+                                <p>$14.00</p>
+                            </div>
+
+                        </div>
+                        <div class="subtotal">
+                            <div class="banggia-subtotal">
+                                <p>Cum sociis natoque </p>
+                                <p>$14.00</p>
+                            </div>
+                        </div>
+                        <div class="subtotal">
+                            <div class="banggia-subtotal">
+                                <p>Shipping </p>
+                                <p>$0</p>
+                            </div>
+                        </div>
+                        <div class="total">
+                            <div class="banggia-total">
+                                <p>Total </p>
+                                <p>$68.00</p>
+                            </div>
+                        </div>
+                        <div>
+                            <fieldset class="form-direc">
+                                <label><input type="radio"><a href="#">Direc bank transfer </a></label>
+                                <p>Aenean id ullamcorper libero. Vestibulum imperdiet nibh. Lorem ullamcorper volutpat.
+                                    Vestibulum lacinia risus. Etiam sagittis ullamcorper volutpat. </p>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset class="form-direc2">
+                                <label><input type="radio"><a href="#">Cheque Payment
+
+                                    </a></label>
+                            </fieldset>
+                        </div>
+                        <div>
+                            <fieldset class="form-direc2">
+                                <label><input type="radio"><a href="#">Paypal
+
+                                    </a></label>
+                                <div class="icon-paypal">
+                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                                    <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                                    <i class="fa fa-paypal" aria-hidden="true"></i>
+                                    <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                                </div>
+                            </fieldset>
+                        </div>
+                        <div class="button-place-order-checkout">
+                            <button class="buttonplaceordercheckout">PLACE ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-checkout">
+        <div class="container-footer">
+            <div class="main-footer">
+                <div class="footer-cuoi">
+                    <div class="item-footer">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                        <p class="copy-right">© 2018 Gyges - All Rights Reserved</p>
+                    </div>
+                    <div class="item-footer">
+                        <p style="width: 200px; line-height: 25px; color: #555555;">No. 342 - London Oxford Street,
+                            012 United Kingdom.
+                            Business@moontheme.net
+                            +032 3456 7890
+                        </p>
+                    </div>
+                    <div class="item-footer">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Term & Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                    </div>
+                    <div class="item-footer">
+                        <p class="social-media-link">Follow Us On Social</p>
+                        <ul class="link-contact">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                </a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="background-transparent"></div>
+     <!-- Nút backtotop -->
+     <div class="backtotop-container">
+        <a href="#PageContainer" class="btn-backtotop btn btn-secondary">
+            <span class="fa fa-angle-up"></span>
+        </a>
+    </div>
+</body>
+<script>
+    //scroll top
+    $(window).on("load scroll", function () {
+        $(window).scrollTop() > $(window).height() + 100 ? $(".backtotop-container").addClass("show") : $(".backtotop-container").removeClass("show")
+    }), $(document).on("click", ".btn-backtotop", function (e) {
+        e.preventDefault(), $("html,body").animate({
+            scrollTop: 0
+        }, 800)
+    });
+    //header aside jquery
+    $(document).on("click", ".action-aside_header,.btn-aside-toggle", function (t) {
+        t.preventDefault(), $(this).hasClass("btn-master-toggle") ? $('body').toggleClass("open-master-aside") : $('body').toggleClass("open-header-aside")
+    });
+</script>
+</html>
